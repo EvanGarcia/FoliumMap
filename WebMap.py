@@ -1,7 +1,7 @@
 import folium
 import pandas
 
-#Receive data about Volcanoes in the USA
+#Receive USA volcano data
 data = pandas.read_csv("Volcanoes_USA.txt")
 
 #Create lists of latitude, longitude, and elevation data
